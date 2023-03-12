@@ -1,5 +1,5 @@
 .btn
-    &:link, &:visited
+    &, &:link, &:visited
         @include style-link
         padding: 1.5rem 4rem
         border-radius: 5rem
@@ -7,6 +7,7 @@
         font-size: $font-size-h3
         transition: all .2s
         position: relative
+        border: none
     &:hover
         transform: translateY(-.4rem)
         box-shadow: $box-shadow-dark
@@ -31,3 +32,12 @@
     &_animated
         animation: BtnToUp 1s ease 1s
         animation-fill-mode: backwards
+
+
+.btn_brown
+    &, &:link, &:visited
+        background: $color-brown-dark
+        color: $color-white
+    &:hover
+    &::after
+        background: $color-brown-dark
