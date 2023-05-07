@@ -438,14 +438,14 @@ body {
 
 .book {
   height: 50rem;
-  background: linear-gradient(115deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 57%, rgba(186, 133, 80, 0.2) 57%, rgba(161, 79, 3, 0.6) 100%), url(../img/bg-form.jpg) center/cover no-repeat;
+  background: linear-gradient(115deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 57%, rgba(186, 133, 80, 0.2) 57%, rgba(161, 79, 3, 0.6) 100%), url(../img/bg-form.webp) center/cover no-repeat;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
   overflow: hidden;
 }
 @media only screen and (max-width: 900px) {
   .book {
-    background: linear-gradient(115deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%, rgba(186, 133, 80, 0.2) 100%, rgba(161, 79, 3, 0.6) 100%), url(../img/bg-form.jpg) center/cover no-repeat;
+    background: linear-gradient(115deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%, rgba(186, 133, 80, 0.2) 100%, rgba(161, 79, 3, 0.6) 100%), url(../img/bg-form.webp) center/cover no-repeat;
   }
 }
 
@@ -629,13 +629,13 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
 }
 .card-tour__img_1 {
-  background: #BA8554 url(../img/card-1.jpg) center/cover no-repeat;
+  background: #BA8554 url(../img/card-1.webp) center/cover no-repeat;
 }
 .card-tour__img_2 {
-  background: #BA8554 url(../img/card-2.jpg) center/cover no-repeat;
+  background: #BA8554 url(../img/card-2.webp) center/cover no-repeat;
 }
 .card-tour__img_3 {
-  background: #BA8554 url(../img/card-3.jpg) center/cover no-repeat;
+  background: #BA8554 url(../img/card-3.webp) center/cover no-repeat;
 }
 @media only screen and (max-width: 900px), (hover: none) {
   .card-tour__img {
@@ -776,12 +776,12 @@ body {
 .header {
   position: relative;
   height: 95vh;
-  background: linear-gradient(90deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(0, 0, 0, 0.7) 99.94%), url(../img/header-background.jpg) center/cover no-repeat;
+  background: linear-gradient(90deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(0, 0, 0, 0.7) 99.94%), url(../img/header-background.webp) center/cover no-repeat;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
 }
 @media (min-resolution: 192dpi) and (min-width: 670px), (min-width: 1340px) {
   .header {
-    background: linear-gradient(90deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(0, 0, 0, 0.7) 99.94%), url(../img/header-background-big.jpg) center/cover no-repeat;
+    background: linear-gradient(90deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(0, 0, 0, 0.7) 99.94%), url(../img/header-background-big.webp) center/cover no-repeat;
   }
 }
 .header__logo {
@@ -1012,7 +1012,7 @@ body {
 .section-adventure {
   position: relative;
   padding: 21rem 0;
-  background: linear-gradient(90deg, rgba(186, 133, 84, 0.7), rgba(0, 0, 0, 0.7)), url(../img/section-adventure.jpg) center/cover no-repeat;
+  background: linear-gradient(90deg, rgba(186, 133, 84, 0.7), rgba(0, 0, 0, 0.7)), url(../img/section-adventure.webp) center/cover no-repeat;
   transform: skewY(7deg);
 }
 .section-adventure > * {
